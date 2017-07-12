@@ -9,3 +9,16 @@
     border-radius: 15px;
     height: 300px;
 }
+
+#selfData {
+    margin: auto;
+    width: 500px;
+}
+
+#selfData tr {
+    height: 35px;
+}
+
+#selfData tr td {
+    min-width: 100px;
+}
