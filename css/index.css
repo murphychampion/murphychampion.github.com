@@ -10,6 +10,10 @@
     height: 300px;
 }
 
+#name {
+    text-align: center;
+}
+
 #selfData {
     margin: auto;
     width: 500px;
