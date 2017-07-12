@@ -11,12 +11,13 @@
 }
 
 #name {
+    font-size: 20px;
     text-align: center;
 }
 
 #selfData {
     margin: auto;
-    width: 500px;
+    width: 700px;
 }
 
 #selfData tr {
@@ -24,5 +25,5 @@
 }
 
 #selfData tr td {
-    min-width: 100px;
+    min-width: 200px;
 }
