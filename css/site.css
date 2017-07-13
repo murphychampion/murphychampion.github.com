@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+.container {
+    margin: none;
+}
+
 header {
     background-color: #24292e;
     color: white;
