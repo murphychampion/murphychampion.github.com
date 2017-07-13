@@ -123,32 +123,32 @@ header.smaller .navMenu .tab {
         display: block;
         float: none;
         margin: 0 auto;
-        height: 150px;
-        line-height: 150px;
+        height: 250px;
+        line-height: 250px;
         text-align: center;
     }
     
     header .navMenu {
         display: block;
         float: none;
-        height: 75px;
+        height: 100px;
         margin: 0 auto;
         text-align: center;
     }
     
     header .navMenu .tab {
-        line-height: 75px;
+        line-height: 100px;
         margin: 0 10px;
     }
     
     header.smaller {
-        height: 75px;   
+        height: 125px;   
     }
     
     header.smaller .name {
         font-size: 35px;
-        height: 65px;
-        line-height: 65px;
+        height: 70px;
+        line-height: 70px;
     }
     
     header.smaller .navMenu {
