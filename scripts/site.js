@@ -34,15 +34,15 @@ $(document).ready(function () {
   setActivePage();
   
   $('.name').on('click', function () {
-    window.location = 'murphychampion.com';
+    window.location = '/';
   });
  
   $('#about').on('click', function () {
-    window.location = 'murphychampion.com/about.html';
+    window.location = 'about.html';
   });
   
   $('#cv').on('click', function () {
-    window.location = 'murphychampion.com/cv.html';
+    window.location = 'cv.html';
   });
   
   $('#contact').on('click', function () {
