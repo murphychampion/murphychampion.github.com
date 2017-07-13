@@ -13,38 +13,3 @@ body {
     overflow-y: hidden;
     padding: 50px;
 }
-
-#info, #info2 {
-    display: none;
-}
-
-#mugshot {
-    display: none;
-    border-radius: 15px;
-    height: 300px;
-}
-
-#name {
-    display: none;
-    font-size: 100px;
-    text-align: left;
-}
-
-#nameCell {
-    max-width: 400px;
-    vertical-align: bottom;
-}
-
-#selfData {
-    margin: 50px auto;
-    width: 700px;
-}
-
-#selfData tr {
-    height: 35px;
-}
-
-#selfData tr td {
-    min-width: 150px;
-    text-align: center;
-}
