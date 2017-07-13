@@ -1,5 +1,12 @@
 $(document).ready(function () {
-   $('#test').on('click', function () {
-      alert("You've been warned."); 
-   });
+   $('#mugshot').fadeIn();
+   
+   setTimeout(function () {
+      $('#name').fadeIn();
+      
+      setTimeout(function () {
+         $('#info').fadeIn();
+         $('#info2').fadeIn();
+      }, 200);
+   }, 200);
 });
