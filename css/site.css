@@ -55,10 +55,10 @@ header .navMenu {
     font-size: 24px;
     height: 75px;
     min-width: 150px;
+    padding-top: 25%;
     position: relative;
     text-align: center;
-    top: 125px;
-    vertical-align: middle;
+    top: 125px;    
     width: 150px;
     
     -webkit-transition: all 0.3s;
