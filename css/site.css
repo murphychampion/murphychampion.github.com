@@ -69,6 +69,10 @@ main {
     width: 100%;
 }
 
+#name:hover {
+    cursor: pointer;
+}
+
 .navMenu .tab {    
     display: inline-block;
     color: white;
