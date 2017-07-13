@@ -1,6 +1,5 @@
-#mugshot {
+.img {
     border-radius: 35px;
-    float: left;
     height: 300px;
     margin: 0px 15px;
 }
