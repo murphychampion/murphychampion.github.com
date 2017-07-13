@@ -10,4 +10,10 @@ $(document).ready(function () {
             });
         });
     });
+    
+    $('.button').on('touchstart', function () {
+        $(this).addClass('buttonActive');
+    }).on('touchend', function () {
+        $(this).removeClass('buttonActive');
+    });
 });
