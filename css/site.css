@@ -56,7 +56,9 @@ header .navMenu {
     margin-left: 20px;
     height: 75px;
     min-width: 150px;
+    position: relative;
     text-align: center;
+    top: 125px;
     vertical-align: bottom;
     width: 150px;
     
