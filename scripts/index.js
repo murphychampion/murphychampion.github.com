@@ -13,7 +13,9 @@ $(document).ready(function () {
     
     $('.button').on('touchstart', function () {
         $(this).addClass('buttonActive');
-    }).on('touchend', function () {
+    });
+    
+    $('.button').on('touchend', function () {
         $(this).removeClass('buttonActive');
     });
 });
