@@ -4,3 +4,19 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+.buttons {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+#name {
+    font-family: 'Abel', sans-serif;
+    font-size: 100px;
+}
+
+.summary { 
+    font-family: 'Khand', sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+}
