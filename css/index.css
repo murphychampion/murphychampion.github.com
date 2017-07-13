@@ -1,3 +1,13 @@
+#additionalData {
+    display: inline;
+    width: 50%;
+}
+
+#bio {
+    display: inline;
+    width: 50%;
+}
+
 body {
     overflow-x: hidden;
     overflow-y: hidden;
@@ -17,8 +27,8 @@ body {
 }
 
 #name {
-    font-size: 20px;
-    text-align: center;
+    font-size: 60px;
+    text-align: left;
 }
 
 #selfData {
