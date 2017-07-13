@@ -6,16 +6,19 @@ body {
 }
 
 .buttons {
+    display: none;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
 }
 
 #name {
+    display: none;
     font-family: 'Abel', sans-serif;
     font-size: 100px;
 }
 
 .summary { 
+    display: none;
     font-family: 'Khand', sans-serif;
     font-size: 20px;
     font-variant: small-caps;
