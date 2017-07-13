@@ -18,4 +18,8 @@ $(document).ready(function () {
     $('.button').on('touchend', function () {
         $(this).removeClass('buttonActive');
     });
+    
+    $('#btnContact').on('click', function () {
+        $('#lnkContact').trigger('click');
+    });
 });
