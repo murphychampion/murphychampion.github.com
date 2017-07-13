@@ -50,6 +50,7 @@ header .navMenu {
 }
 
 .navMenu .tab {    
+    display: inline;
     color: white;
     line-height: 200px;
     margin-left: 20px;
