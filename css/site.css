@@ -52,9 +52,10 @@ header .navMenu {
 .navMenu .tab {    
     display: inline;
     color: white;
+    font-size: 16px;
     line-height: 200px;
     margin-left: 20px;
-    min-width: 100px;
+    width: 100px !important;
     
     -webkit-transition: all 0.3s;
     -mox-transition: all 0.3s;
@@ -83,6 +84,7 @@ header.smaller .name {
 }
 
 header.smaller .navMenu .tab {
+    font-size: 12px;
     line-height: 100px;   
 }
 
