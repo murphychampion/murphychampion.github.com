@@ -31,7 +31,8 @@ body {
 }
 
 #nameCell {
-    max-width: 400px;   
+    max-width: 400px;
+    vertical-align: bottom;
 }
 
 #selfData {
