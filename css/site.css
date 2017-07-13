@@ -15,25 +15,3 @@ header {
     width: 100%;
     z-index: 1000;
 }
-
-#info {
-    font-size: 25px;
-}
-
-#location {
-    text-align: left;
-}
-
-#mugshot {
-    border-radius: 15px;
-    height: 300px;
-}
-
-#name {
-    font-size: 75px;
-    text-align: left;
-}
-
-#profession {
-    text-align: right;
-}
