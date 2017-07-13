@@ -6,7 +6,7 @@ $(document).ready(function () {
                     $('#blurb').fadeIn(1000, "linear", function () {
                         $('.buttons').fadeIn(750);
                     });
-                }, 200);
+                }, 350);
             });
         });
     });
