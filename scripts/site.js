@@ -33,7 +33,7 @@ var setActivePage = function () {
 $(document).ready(function () {
   setActivePage();
   
-  $('#name').on('click', function () {
+  $('.name').on('click', function () {
     window.location = 'murphychampion.com';
   });
  
