@@ -54,6 +54,7 @@ header .navMenu {
     color: white;
     line-height: 200px;
     margin-left: 20px;
+    min-width: 100px;
     
     -webkit-transition: all 0.3s;
     -mox-transition: all 0.3s;
@@ -64,6 +65,10 @@ header .navMenu {
 
 .navMenu .tab.active {
     background-color: #5f5f5f;
+}
+
+.navMenu .tab:hover {
+    background-color: #5f5f5f;    
 }
 
 header.smaller {
