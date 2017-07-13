@@ -18,8 +18,11 @@ body {
 }
 
 .summary { 
-    display: none;
     font-family: 'Khand', sans-serif;
     font-size: 20px;
     font-variant: small-caps;
+}
+
+.summary div {
+    display: none;
 }
