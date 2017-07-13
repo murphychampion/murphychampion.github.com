@@ -26,7 +26,7 @@ var setActivePage = function () {
    }
  }
  
- $('.' + pathname).addClass('active'); 
+ $('#' + pathname).addClass('active'); 
 }
 
 window.onload = init();
