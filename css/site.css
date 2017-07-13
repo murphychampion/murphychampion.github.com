@@ -59,7 +59,7 @@ header .navMenu {
     position: relative;
     text-align: center;
     top: 125px;
-    vertical-align: bottom;
+    vertical-align: middle;
     width: 150px;
     
     -webkit-transition: all 0.3s;
