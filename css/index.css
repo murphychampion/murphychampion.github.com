@@ -1,27 +1,6 @@
-#additionalData {
-    display: inline;
-    width: 50%;
-}
-
-#bio {
-    display: inline;
-    width: 50%;
-}
-
 body {
+    background-color: #5f5f5f;
+    color: white;
     overflow-x: hidden;
     overflow-y: hidden;
-    padding: 50px;
-}
-
-#info, #info2 {
-    display: none;
-}
-
-#mugshot {
-    display: none;
-}
-
-#name {
-    display: none;
 }
