@@ -7,6 +7,8 @@ body {
 
 content {
     padding-top: 250px;
+    margin: 50px;
+    width: 100%;
 }
 
 header {
