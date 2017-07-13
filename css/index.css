@@ -9,9 +9,11 @@ body {
     display: none;
     font-family: 'Arial', sans-serif;
     font-size: 20px;
+    margin-top: 35px;
 }
 
 .container {
+    padding-top: 30%;
     text-align: center;   
 }
 
