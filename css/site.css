@@ -17,7 +17,11 @@ header {
 }
 
 #info {
-    font-size: 35px;
+    font-size: 25px;
+}
+
+#location {
+    text-align: left;
 }
 
 #mugshot {
@@ -28,4 +32,8 @@ header {
 #name {
     font-size: 75px;
     text-align: left;
+}
+
+#profession {
+    text-align: right;
 }
