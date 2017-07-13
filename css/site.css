@@ -25,6 +25,7 @@ header {
 }
 
 .headerContainer {
+    display: table;
     width: 100%;   
 }
 
