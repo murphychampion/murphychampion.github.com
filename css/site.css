@@ -68,6 +68,7 @@ header .navMenu {
 }
 
 main {
+    font-size: 18px;
     padding-top: 250px;
     margin: 0px 150px;
     width: 100%;
