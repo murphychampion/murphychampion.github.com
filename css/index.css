@@ -13,7 +13,7 @@ body {
     padding: 5px;
 }
 
-.button:hover, .button:active {
+.button:hover, .buttonActive {
     background-color: white;
     color: #046DDA;
     cursor: pointer;    
