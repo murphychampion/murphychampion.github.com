@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    $('#name').fadeIn(500, "linear", function () {
-        $('#position').fadeIn(500, "linear", function () {
-            $('#location').fadeIn(500, "linear", function () {
+    $('#name').fadeIn(1500, "linear", function () {
+        $('#position').fadeIn(1000, "linear", function () {
+            $('#location').fadeIn(1000, "linear", function () {
                 setTimeout(function () {
-                    $('#blurb').fadeIn(500, "linear", function () {
+                    $('#blurb').fadeIn(1000, "linear", function () {
                         $('.buttons').fadeIn();
                     });
-                }, 1000);
+                }, 300);
             });
         });
     });
