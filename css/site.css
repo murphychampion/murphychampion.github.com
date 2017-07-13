@@ -55,7 +55,8 @@ header .navMenu {
     font-size: 16px;
     line-height: 200px;
     margin-left: 20px;
-    width: 100px !important;
+    min-height: 75px !important;
+    min-width: 150px !important;
     
     -webkit-transition: all 0.3s;
     -mox-transition: all 0.3s;
