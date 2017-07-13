@@ -19,6 +19,14 @@ $(document).ready(function () {
         $(this).removeClass('buttonActive');
     });
     
+    $('#btnAbout').on('click', function () {
+        window.location = '../about.html';
+    });
+    
+    $('#btnCV').on('click', function () {
+        window.location = '../cv.html';
+    });
+    
     $('#btnContact').on('click', function () {
         window.open('mailto:contact@murphychampion.com', target="_top");
     });
