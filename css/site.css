@@ -68,7 +68,8 @@ header .navMenu {
 }
 
 .navMenu .tab:hover {
-    background-color: #5f5f5f;    
+    background-color: #5f5f5f; 
+    cursor: pointer;
 }
 
 header.smaller {
