@@ -22,12 +22,17 @@ header {
     transition: height 0.3s;
 }
 
+.headerContainer {
+    width: 100%;   
+}
+
 header h1 {
     display: inline-block;
     float: left;
     font-size: 60px;
     height: 200px;
     line-height: 200px;
+    padding-left: 25px;
     
     -webkit-transition: all 0.3s;
     -mox-transition: all 0.3s;
@@ -39,6 +44,7 @@ header h1 {
 header nav {
     display: inline-block;
     float: right;
+    padding-right: 25px;
 }
 
 header nav a {
