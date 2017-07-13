@@ -14,20 +14,18 @@ body {
     padding: 50px;
 }
 
-#entry {
-    margin: auto;
-    padding-top: 50;
-    text-align: center;
-    top: 20%;
-    width: 900px;
+#info, #info2 {
+    display: none;
 }
 
 #mugshot {
+    display: none;
     border-radius: 15px;
     height: 300px;
 }
 
 #name {
+    display: none;
     font-size: 100px;
     text-align: left;
 }
