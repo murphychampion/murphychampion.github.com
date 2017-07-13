@@ -52,7 +52,7 @@ header .navMenu {
 .navMenu .tab {    
     display: inline-block;
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     margin-left: 20px;
     height: 75px;
     min-width: 150px;
@@ -89,7 +89,7 @@ header.smaller .name {
 }
 
 header.smaller .navMenu .tab {
-    font-size: 12px; 
+    font-size: 16px; 
     height: 50px;
     top: 50px;
 }
