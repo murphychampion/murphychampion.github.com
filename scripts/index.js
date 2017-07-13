@@ -4,9 +4,9 @@ $(document).ready(function () {
             $('#location').fadeIn(1000, "linear", function () {
                 setTimeout(function () {
                     $('#blurb').fadeIn(1000, "linear", function () {
-                        $('.buttons').fadeIn();
+                        $('.buttons').fadeIn(750);
                     });
-                }, 300);
+                }, 200);
             });
         });
     });
