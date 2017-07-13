@@ -32,4 +32,20 @@ var setActivePage = function () {
 
 $(document).ready(function () {
   setActivePage();
+  
+  $('#name').on('click', function () {
+    window.location = 'murphychampion.com';
+  });
+ 
+  $('#about').on('click', function () {
+    window.location = 'murphychampion.com/about.html';
+  });
+  
+  $('#cv').on('click', function () {
+    window.location = 'murphychampion.com/cv.html';
+  });
+  
+  $('#contact').on('click', function () {
+    window.open('mailto:contact@murphychampion.com', target="_top");
+  });
 });
