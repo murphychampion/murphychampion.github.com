@@ -9,10 +9,11 @@ function init () {
     } else {
         $header.removeClass('smaller');
     }
-  });
-  
-  setActivePage();
+  });  
 }
+
+window.onload = init();
+
 
 var setActivePage = function () {
  var pathname = $(location).attr('pathname');
@@ -29,4 +30,6 @@ var setActivePage = function () {
  $('#' + pathname).addClass('active'); 
 }
 
-window.onload = init();
+$(document).ready(function () {
+  setActivePage();
+});
