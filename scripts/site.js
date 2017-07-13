@@ -2,14 +2,12 @@ function init () {
   window.addEventListener('scroll', function(e) {
     var distanceY = window.pageYOffset || document.documentElement.scrollTop;
     var shrinkOn = 300;
-    var header = document.querySelector('header');
+    var $header = $('header');
     
     if (distanceY > shrinkOn) {
-        classie.add(header, 'smaller');
+        $header.addClass('smaller');
     } else {
-        if (classie.has(header, 'smaller')) {
-            classie.remove(header, 'smaller');
-        }
+        $header.removeClass('smaller');
     }
   });
 }
