@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+content {
+    margin: 50px;
+}
+
 header {
     background-color: #24292e;
     color: white;
