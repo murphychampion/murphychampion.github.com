@@ -5,6 +5,17 @@ body {
     overflow-y: hidden;
 }
 
+.button {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #046DDA;
+}
+
 .buttons {
     display: none;
     font-family: 'Abel', sans-serif;
