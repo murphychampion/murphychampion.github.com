@@ -4,7 +4,7 @@ $(document).ready(function () {
             $('#location').fadeIn(1000, "linear", function () {
                 setTimeout(function () {
                     $('#blurb').fadeIn(1000, "linear", function () {
-                        $('.buttons').fadeIn(750);
+                        setTimeout(function() { $('.buttons').fadeIn(750); }, 500);
                     });
                 }, 450);
             });
