@@ -15,18 +15,12 @@ header {
     z-index: 1000;
 }
 
-#info, #info2 {
-    display: none;
-}
-
 #mugshot {
-    display: none;
     border-radius: 15px;
     height: 300px;
 }
 
 #name {
-    display: none;
     font-size: 100px;
     text-align: left;
 }
