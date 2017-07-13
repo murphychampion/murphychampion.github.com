@@ -20,6 +20,6 @@ $(document).ready(function () {
     });
     
     $('#btnContact').on('click', function () {
-        $('#lnkContact').trigger('click');
+        window.open('mailto:contact@murphychampion.com', target="_top");
     });
 });
