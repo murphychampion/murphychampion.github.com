@@ -48,4 +48,12 @@ $(document).ready(function () {
   $('#contact').on('click', function () {
     window.open('mailto:contact@murphychampion.com', target="_top");
   });
+
+  $('.tab').on('touchstart', function () {
+      $(this).addClass('hover');
+  });
+
+  $('.tab').on('touchend', function () {
+      $(this).removeClass('hover');
+  });
 });
