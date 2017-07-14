@@ -145,6 +145,10 @@ header.smaller .navMenu .tab {
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
     
+    body {
+        width: 95%;
+    }
+      
     header {
         height: 150px;
     }
