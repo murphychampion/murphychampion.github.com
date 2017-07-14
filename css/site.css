@@ -65,7 +65,6 @@ header .name {
 }
 
 header .navMenu {
-    display: inline-block;
     float: right;
     padding-right: 50px;
 }
@@ -80,7 +79,8 @@ main {
     cursor: pointer;
 }
 
-.navMenu .tab {    
+.navMenu .tab {   
+    display: inline-block;
     color: white;
     font-size: 24px;
     height: 75px;
