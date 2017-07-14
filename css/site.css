@@ -149,6 +149,10 @@ header.smaller .navMenu .tab {
         height: 150px;
     }
       
+    header.smaller {
+        height: 75px;
+    }
+      
     header .name {
         display: block;
         float: none;
@@ -158,6 +162,12 @@ header.smaller .navMenu .tab {
         line-height: 75px;
         text-align: center;
     }
+      
+    header.smaller .name {
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
     
     header .navMenu {
         display: block;
@@ -166,6 +176,10 @@ header.smaller .navMenu .tab {
         margin: 0 auto;
         text-align: center;
     }
+      
+    header.smaller .navMenu {
+        height: 35px;
+    }
     
     header .navMenu .tab {                
         font-size: 14px;
@@ -173,6 +187,12 @@ header.smaller .navMenu .tab {
         min-width: 30%;
         top: 45px;
         width: 30%;
+    }
+      
+    header.smaller .navMenu .tab {
+        font-size: 12px;
+        height: 25px;
+        top: 10px;
     }
       
     main {
