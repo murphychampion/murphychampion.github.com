@@ -52,7 +52,7 @@ header:after {
 
 header .name {    
     float: left;
-    font-size: 60px;
+    font-size: 2.6vw;
     height: 200px;
     line-height: 200px;
     padding-left: 50px;
