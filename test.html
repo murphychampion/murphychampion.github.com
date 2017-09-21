@@ -1,0 +1,49 @@
+!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>About - Murphy Champion</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/site.css" />
+        <link rel="stylesheet" type="text/css" href="css/test.css" />
+        
+        <script src="scripts/external/jquery-3.2.1.min.js"></script>
+        <script src="scripts/external/bootstrap.min.js"></script>
+        <script src="scripts/site.js"></script>
+        <script src="scripts/about.js"></script>
+    </head>
+    <body>        
+        <div class="container-fluid">                        
+            <header>
+                <div class="headerContainer">                                            
+                    <label class="name">Murphy Champion</label>
+                    <div class="navMenu" id="navMenu">
+                        <div id="about" class="tab">About</div>
+                        <div id="cv" class="tab">CV</div>
+                        <div id="contact" class="tab">Contact</div>
+                        <div id="icon" onclick="toggleNavMenu()">&#9776;</div>
+                    </div>                    
+                </div>
+            </header>
+            <main>
+                <content>
+                </content>
+            </main>
+        </div>
+    </body>
+  </html>
+  
+  <script type="text/javascript">
+    function toggleNavMenu() {
+      var x = document.getElementById('navMenu'); {
+        if (x.className === 'navMenu') {
+          x.className += ' responsive';
+        } else {
+          x.className = 'navMenu';
+        }
+      }
+    }
+  </script>
