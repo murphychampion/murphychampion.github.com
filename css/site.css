@@ -183,8 +183,7 @@ header.smaller .navMenu .tab {
         height: 35px;
     }
     
-    header .navMenu .tab {                
-        font-size: 18px;
+    header .navMenu .tab {
         height: 45px;
         min-width: 30%;
         top: 44px;
@@ -192,7 +191,6 @@ header.smaller .navMenu .tab {
     }
       
     header.smaller .navMenu .tab {
-        font-size: 12px;
         height: 25px;
         top: 10px;
     }
