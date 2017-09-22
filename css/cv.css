@@ -8,6 +8,10 @@
   font-weight: bold;
 }
 
+.cvArea ul {
+  margin-left: 5px;
+}
+
 .row {
     margin: 0 10vw;
 }
