@@ -124,7 +124,7 @@ header.smaller .navMenu tab {
 /* #endregion SMALLER STYLES */
 
 /* #region MEDIA QUERIES */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1235px) {
     header {
         height: 100px;
         text-align: center;
