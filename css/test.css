@@ -127,12 +127,14 @@ header.smaller .navMenu tab {
 /* #region MEDIA QUERIES */
 @media screen and (max-width: 600px) {
     header {
+        height: 100px;
         text-align: center;
     }
     
     header .name {
         float: none;
         font-size: 36px;
+        line-height: 75px;
         padding: 0;
     }
     
