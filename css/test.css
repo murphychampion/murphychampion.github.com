@@ -84,8 +84,10 @@ header .name {
 .navMenu .tab {
     color: #ffffff;
     display: inline-block;
-    margin-right: 50px;
+    line-height: 50px;
+    margin-right: 5px;
     text-align: center;
+    width: 250px;
 }
 
 .navMenu .tab:hover {
