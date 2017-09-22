@@ -20,7 +20,8 @@
 }
 
 .pageTitle div {
-    background-color: #ffc83f;    
+    background-color: #ffc83f; 
+    margin-left: -2.5%;
     width: 105%;
 }
 
