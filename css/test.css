@@ -108,29 +108,4 @@ header.smaller {
 }
 
 
-@media screen and (max-width: 600px) {
-    .navMenu a:not(:first-child) {
-        display: none;
-    }
-    
-    .navMenu .icon {
-        display: block;
-        float: right; 
-    }
-    
-    .navMenu.responsive {
-        position: relative;
-    }
-    
-    .navMenu.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    
-    .navMenu.responsive a {
-        display: block;
-        float: none;
-        text-align: left;
-    }
-}
+
