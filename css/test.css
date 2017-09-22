@@ -144,6 +144,7 @@ header.smaller .navMenu tab {
         height: 50px;
         left: 0;     
         line-height: 50px;
+        position: relative;
         top: 0;
         width: 100%;
 
