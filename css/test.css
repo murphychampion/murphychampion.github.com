@@ -165,6 +165,9 @@ header.smaller .navMenu tab {
     .navMenu .icon {
         display: block !important;
         float: right;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
     
     .navMenu.responsive {
@@ -172,9 +175,7 @@ header.smaller .navMenu tab {
     }
     
     .navMenu.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
+        
     }
     
     .navMenu.responsive .tab {
