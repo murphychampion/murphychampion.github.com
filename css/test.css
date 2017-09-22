@@ -155,7 +155,7 @@ header.smaller .navMenu a {
     }
     
     .navMenu .icon {
-        display: block;
+        display: block !important;
         float: right; 
     }
     
