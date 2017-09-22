@@ -41,6 +41,7 @@ body {
 
 .summary { 
     border: 1px solid #ffffff;
+    display: none;
     font-family: 'Abel', sans-serif;
     font-size: 40px;
     font-variant: small-caps;
