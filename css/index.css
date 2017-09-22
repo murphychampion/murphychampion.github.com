@@ -1,6 +1,6 @@
 body {
-    background-image: url("../images/index-background.jpg");
-    background-repeat: no-repeat;
+    background: url("../images/index-background.jpg") no-repeat center center fixed;
+    background-size: cover;
     color: white !important;
     overflow-x: hidden;
     overflow-y: hidden;
