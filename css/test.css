@@ -72,9 +72,10 @@ header .name {
 }
 
 .navMenu a {
+    color: #ffffff;
     display: block;
     float: left;
-    padding: 14px 16px;
+    padding: 5px 16px;
     text-align: center;
     text-decoration: none;
 }
