@@ -54,7 +54,7 @@ header .name {
     font-size: 50px;
     height: 150px;
     line-height: 150px;
-    padding-left: 50px;
+    padding-left: 45px;
     
     -webkit-transition: all 0.3s;
     -mox-transition: all 0.3s;
@@ -68,7 +68,7 @@ header .name {
 .navMenu {
     color: #ffffff;
     font-size: 24px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 .navMenu a {
