@@ -85,7 +85,6 @@ header .name {
     color: #ffffff;
     display: inline-block;
     line-height: 50px;
-    margin-right: 5px;
     text-align: center;
     width: 250px;
 }
@@ -169,6 +168,7 @@ header.smaller .navMenu tab {
         position: absolute;
         right: 0;
         top: 0;
+        width: 50px;
     }
     
     .navMenu.responsive {
@@ -182,7 +182,6 @@ header.smaller .navMenu tab {
     .navMenu.responsive .tab {
         display: block;
         float: none;
-        text-align: left;
     }
     
     /* #region MEDIA QUERIES SMALLER STYLES */
