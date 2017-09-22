@@ -1,6 +1,7 @@
 .cvArea {
   background-color: #eff1f4;
   color: #000000;
+  padding: 25px 50px;
 }
 
 .cvArea .areaHeading {
@@ -9,9 +10,10 @@
 }
 
 .cvArea ul {
-  margin-left: 5px;
+  font-size: 16px;
+  margin-left: 50px;
 }
 
 .row {
-    margin: 0 10vw;
+    margin: 0 5vw;
 }
