@@ -127,6 +127,10 @@ header.smaller .navMenu a {
 
 /* #region MEDIA QUERIES */
 @media screen and (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+    
     header .name {
         float: none;
         font-size: 36px;
