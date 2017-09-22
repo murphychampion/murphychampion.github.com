@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/paris.jpg");
-    
+    background-repeat: no-repeat;
     color: white !important;
     overflow-x: hidden;
     overflow-y: hidden;
