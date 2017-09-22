@@ -40,16 +40,13 @@ body {
 }
 
 .summary { 
+    background-color: #ffc83f;
     border: 1px solid #ffffff;
     display: none;
     font-family: 'Abel', sans-serif;
     font-size: 40px;
     font-variant: small-caps;
     margin-top: 15px;
-}
-
-.summary div {
-    display: none;
 }
 
 @media only screen 
