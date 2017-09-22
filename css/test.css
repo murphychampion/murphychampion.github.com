@@ -158,7 +158,10 @@ header.smaller .navMenu a {
     }
     
     .navMenu a:not(:first-child) {
-        display: none;
+        display: none;        
+    }
+    
+    .navMenu a:not(:first-child):not(.icon) {
         width: 100%;
     }
     
