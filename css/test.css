@@ -101,11 +101,49 @@ header .name {
     display: none;
 }
 
-
-
+/* #region SMALLER STYLES */
+/* styles applied to elements when the user scrolls past a certain point to shrink the header */
 header.smaller {
     height: 100px;
 }
 
+header.smaller .name {
+    font-size: 36px;
+    height: 60px;
+    line-height: 60px;
+}
 
+header.smaller .navMenu {
+    font-size: 16px;
+    top: 50px;
+}
+
+/* #endregion SMALLER STYLES */
+
+@media screen and (max-width: 600px) {
+    .navMenu a:not(:first-child) {
+        display: none;
+    }
+    
+    .navMenu .icon {
+        display: block;
+        float: right; 
+    }
+    
+    .navMenu.responsive {
+        position: relative;
+    }
+    
+    .navMenu.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .navMenu.responsive a {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+}
 
