@@ -17,22 +17,15 @@
     </head>
     <body>        
         <div class="container-fluid">                        
-            <header>
-                <div class="headerContainer">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label class="name">Murphy Champion</label>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="navMenu">
-                                <div id="about" class="tab">About</div>
-                                <div id="cv" class="tab">CV</div>
-                                <div id="contact" class="tab">Contact</div>
-                            </div>                           
-                        </div>
-                    </div>
-                </div>
-            </header>  
+            <header>                                
+                <label class="name">Murphy Champion</label>                
+                <div class="navMenu" id="navMenu">
+                    <div id="about" class="tab">About</div>
+                    <div id="cv" class="tab">CV</div>
+                    <div id="contact" class="tab">Contact</div>
+                    <div class="icon tab" onclick="toggleNavMenu()">&#9776;</div>
+                </div>                
+            </header>
             <main>
                 <content>
                     <div class="row">
