@@ -30,6 +30,11 @@ var setActivePage = function () {
  $('#' + pathname).addClass('active'); 
 }
 
+var toggleNavMenu = function () {
+    $('header').toggleClass('responsive');
+    $('.navMenu .tab:not(:first-child)').toggle();      
+}
+
 $(document).ready(function () {
   setActivePage();
   
