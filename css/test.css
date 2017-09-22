@@ -137,6 +137,19 @@ header.smaller .navMenu a {
         padding: 0;
     }
     
+    .navMenu {        
+        font-size: 18px;
+        left: 0;        
+        top: 0x;
+
+        -webkit-transition: all 0.3s;
+        -mox-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3;
+    }
+
+    
     .navMenu a:not(:first-child) {
         display: none;
     }
@@ -168,7 +181,7 @@ header.smaller .navMenu a {
     }
 
     header.smaller .navMenu {
-        font-size: 16px;
+        font-size: 14px;
     }
     /* #endregion MEDIA QUERIES SMALLER STYLES */
 }
