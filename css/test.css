@@ -1,91 +1,51 @@
-header {
-    background-color: #24292e;
-    color: white;
-    font-family: 'Abel', sans-serif;
-    height: 200px;
-    left: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    
-    -webkit-transition: height 0.3s;
-    -mox-transition: height 0.3s;
-    -ms-transition: height 0.3s;
-    -o-transition: height 0.3s;
-    transition: height 0.3s;
+.nameLabel {
+    display: inline;
 }
 
-header:after {
-    background: linear-gradient(-45deg, #5f5f5f 8px, transparent 0), linear-gradient(45deg, #5f5f5f 8px, transparent 0);
-    background-position: left-bottom;
-    background-repeat: repeat-x;
-    background-size: 16px 16px;
-    bottom: 0px;
-    content: " ";
+.navMenu {
+    display: inline;
+}
+
+.navMenu a {
     display: block;
-    height: 16px;   
-    left: 0px;
-    position: absolute;
-    width: 100%;
+    float: left;   
+    text-align: center;
+    text-decoration: none;
 }
 
-header.smaller {
-    height: 100px;
-}
-
-header .navMenu {
-  overflow: hidden;
-}
-
-header .navMenu .tab {
-  color: white;
-  display: inline-block;
-  float: left;  
-  font-size: 1.25vw;
-  height: 75px;
-  min-width: 150px;
-  position: relative;
-  text-align: center;
-  top: 125px;
-  width: 150px;
-}
-
-.navMenu .tab:hover, .navMenu .tab .hover {
+.navMenu a:hover {
     background-color: #949494; 
     color: white;
-    cursor: pointer;
+    cursor: pointer;   
 }
 
-.navMenu #icon {
-  display: none;
+.navMenu .icon {
+    display: none;
 }
-
 
 @media screen and (max-width: 600px) {
-  .navMenu .tab:not(:first-child) {
-    display: none;
-  }
-  
-  .navMenu #icon {
-    float: right;
-    display: block;
-  }
-  
-  .navMenu .responsive {
-    position: relative;
-  }
-  
-  .navMenu .responsive #icon {
-    position: absolute;
-    right: 0;
-    top: 125;
-  }
-  
-  .navMenu .responsive .tab {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+    .navMenu a:not(:first-child) {
+        display: none;
+    }
+    
+    .navMenu a.icon {
+        display: block;
+        float: right; 
+    }
+    
+    .navMenu.responsive {
+        position: relative;
+    }
+    
+    .navMenu.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .navMenu.responsive a {
+        display: block;
+        float: none;
+        text-align: left;
+    }
 }
