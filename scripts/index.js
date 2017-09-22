@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('#name').fadeIn(1500, "linear", function () {
-        $('#summary').fadeIn(1000, "linear", function () {
+        $('.summary').fadeIn(1000, "linear", function () {
             setTimeout(function() { $('.buttons').fadeIn(750); }, 500);                                    
         });
     });    
