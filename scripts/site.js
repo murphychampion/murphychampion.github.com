@@ -31,8 +31,12 @@ var setActivePage = function () {
 }
 
 var toggleNavMenu = function () {
-    $('header').toggleClass('responsive');
-    $('.navMenu .tab:not(:first-child)').toggle();      
+  if (!$('header').hasClass('responsive')) {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
+  }
+  
+  $('header').toggleClass('responsive');
+  $('.navMenu .tab:not(:first-child)').toggle();      
 }
 
 $(document).ready(function () {
