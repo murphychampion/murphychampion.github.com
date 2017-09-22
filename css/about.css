@@ -12,6 +12,17 @@
     margin: 5px;
 }
 
+.pageTitle {
+    border: 1px solid #ffffff;
+    width: 90%;
+}
+
+.pageTitle div {
+    background-color: #ffc83f;
+    padding: 5px 0px;
+    width: 105%;
+}
+
 .row {
     margin: 0 15vw;
 }
