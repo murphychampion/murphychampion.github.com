@@ -133,26 +133,23 @@ header.smaller .navMenu tab {
     
     header .name {
         float: none;
-        font-size: 36px;
+        font-size: 26px;
         line-height: 75px;
         padding: 0;
     }
     
     .navMenu {        
-        font-size: 18px;
+        font-size: 16px;
         left: 0;        
         top: 0x;
+        width: 100%;
 
         -webkit-transition: all 0.3s;
         -mox-transition: all 0.3s;
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3;
-    }
-
-    .navMenu {
-        padding: 15px 0px;
-    }    
+    }  
     
     .navMenu .tab:not(:first-child) {
         display: none;        
