@@ -149,14 +149,23 @@ header.smaller .navMenu a {
         transition: all 0.3;
     }
 
+    .navMenu {
+        padding: 15px 0px;
+    }    
+    
+    .navMenu a:first-child {
+        width: 95%;
+    }
     
     .navMenu a:not(:first-child) {
         display: none;
+        width: 100%;
     }
     
     .navMenu .icon {
         display: block !important;
-        float: right; 
+        float: right;
+        width: 5%;
     }
     
     .navMenu.responsive {
