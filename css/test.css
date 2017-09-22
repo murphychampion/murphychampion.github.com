@@ -172,17 +172,8 @@ header.smaller .navMenu tab {
     }
     
     .navMenu.responsive {
-        position: relative;
-    }
-    
-    .navMenu.responsive .icon {
-        
-    }
-    
-    .navMenu.responsive .tab {
-        display: block;
-        float: none;
-    }
+        height: 200px;
+    }        
     
     /* #region MEDIA QUERIES SMALLER STYLES */
     header.smaller .name {
