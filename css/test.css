@@ -83,6 +83,7 @@ header .name {
 .navMenu a {
     display: block;
     float: left;
+    padding: 14px 16px;
     text-align: center;
     text-decoration: none;
 }
