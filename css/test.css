@@ -176,6 +176,10 @@ header.smaller .navMenu tab {
     }
     
     /* #region MEDIA QUERIES SMALLER STYLES */    
+    header.smaller {
+        height: 105px;
+    }
+    
     header.smaller .name {
         float: none;
         font-size: 26px;
