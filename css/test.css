@@ -88,6 +88,12 @@ header.smaller .navMenu {
     left: 450px;
     position: absolute;
     top: 100px;
+    
+    -webkit-transition: all 0.3s;
+    -mox-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3;
 }
 
 .navMenu a {
