@@ -134,13 +134,16 @@ header.smaller .navMenu tab {
     header .name {
         float: none;
         font-size: 26px;
-        line-height: 75px;
+        height: 50px;
+        line-height: 50px;
         padding: 0;
     }
     
     .navMenu {        
         font-size: 16px;
-        left: 0;        
+        height: 50px;
+        left: 0;     
+        line-height: 50px;
         top: 0x;
         width: 100%;
 
