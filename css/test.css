@@ -81,17 +81,14 @@ header .name {
     transition: all 0.3;
 }
 
-.navMenu a {
+.navMenu .tab {
     color: #ffffff;
-    display: block;
-    float: left;
+    display: inline-block;
     margin-right: 50px;
-    padding: 5px 35px;
     text-align: center;
-    text-decoration: none;
 }
 
-.navMenu a:hover {
+.navMenu .tab:hover {
     background-color: #949494; 
     color: white;
     cursor: pointer;   
@@ -119,8 +116,8 @@ header.smaller .navMenu {
     top: 50px;
 }
 
-header.smaller .navMenu a {    
-    padding: 15px 35px;
+header.smaller .navMenu tab {    
+    
 }
 
 /* #endregion SMALLER STYLES */
@@ -153,11 +150,11 @@ header.smaller .navMenu a {
         padding: 15px 0px;
     }    
     
-    .navMenu a:not(:first-child) {
+    .navMenu .tab:not(:first-child) {
         display: none;        
     }
     
-    .navMenu a:not(.icon) {
+    .navMenu .tab:not(.icon) {
         width: 100%;
     }
     
@@ -170,13 +167,13 @@ header.smaller .navMenu a {
         position: relative;
     }
     
-    .navMenu.responsive a.icon {
+    .navMenu.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
     
-    .navMenu.responsive a {
+    .navMenu.responsive .tab {
         display: block;
         float: none;
         text-align: left;
