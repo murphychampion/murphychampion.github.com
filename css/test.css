@@ -130,6 +130,10 @@ header.smaller .navMenu tab {
         text-align: center;
     }
     
+    header.responsive {
+        height: 200px;
+    }
+    
     header .name {
         float: none;
         font-size: 26px;
@@ -170,10 +174,6 @@ header.smaller .navMenu tab {
         top: 0;
         width: 50px;
     }
-    
-    .navMenu.responsive {
-        height: 200px;
-    }        
     
     /* #region MEDIA QUERIES SMALLER STYLES */
     header.smaller .name {
