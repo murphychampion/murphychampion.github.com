@@ -16,12 +16,13 @@
     border: 1px solid #ffffff;
     margin: auto;
     padding: 5px 0px;
-    width: 75%;
+    width: 50%;
 }
 
 .pageTitle div {
     background-color: #ffc83f; 
     margin-left: -2.5%;
+    text-align: center;
     width: 105%;
 }
 
