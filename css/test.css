@@ -32,10 +32,6 @@ header {
     transition: height 0.3s;
 }
 
-header.smaller {
-    height: 100px;
-}
-
 header:after {
     background: linear-gradient(-45deg, #5f5f5f 8px, transparent 0), linear-gradient(45deg, #5f5f5f 8px, transparent 0);
     background-position: left-bottom;
@@ -104,6 +100,13 @@ header .name {
 .navMenu .icon {
     display: none;
 }
+
+
+
+header.smaller {
+    height: 100px;
+}
+
 
 @media screen and (max-width: 600px) {
     .navMenu a:not(:first-child) {
