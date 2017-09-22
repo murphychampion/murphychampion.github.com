@@ -66,18 +66,11 @@ header .name {
 
 
 
-
-
-.nameLabel {
-    display: inline;
-}
-
 .navMenu {
     color: #ffffff;
     display: inline;
     font-size: 1.25vw;
     margin-left: 25px;
-    top: 50px;
 }
 
 .navMenu a {
