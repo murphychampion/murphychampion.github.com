@@ -1,7 +1,3 @@
-.cvArea {
-    
-}
-
 .cvArea .areaContents {
   background-color: #eff1f4;
   color: #000000;
@@ -26,4 +22,12 @@
 
 .row {
     margin: 0 5vw;
+}
+
+/* #region MEDIA QUERIES */
+@media screen and (max-width: 1235px) {
+    
+    .cvArea .areaContents {
+        padding: 45px 15px 15px;
+    }
 }
