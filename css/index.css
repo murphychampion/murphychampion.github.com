@@ -16,7 +16,7 @@ html {
 }
 
 .siteHeader a {
-    display: block;
+    display: inline-block;
     margin: 10px;
     padding-top: 15px;
 }
