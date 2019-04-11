@@ -1,4 +1,9 @@
 body {
-    background-color: #61666D;
+    background-color: #61666D !important;
+    color: #ffffff;
+}
+
+html {    
+    background-color: #61666D !important;
     color: #ffffff;
 }
