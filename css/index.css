@@ -4,6 +4,10 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 html {    
     background-color: #61666D !important;
     color: #ffffff !important;
